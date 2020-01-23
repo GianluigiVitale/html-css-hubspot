@@ -8,7 +8,7 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
-.container-fullwidth {
+.fixedbar {
     width: 100%;
     top: 0;
     position: fixed;
@@ -25,23 +25,25 @@ body {
     background-color: #F5F8FA;
 }
 
-.containertop {
+/* START CONTAINER1080 */
+
+.container1080 {
     width: 80%;
     max-width: 1080px;
     margin: 0 auto;
-    height: 80px;
+    height: 70px;
 }
 
 .leftcontent {
     float: left;
 }
 
-.containertop a {
+.container1080 a {
     font-size: 14px;
-    font-weight: 600;
+    font-weight: 400;
     color: #33475B;
     text-decoration: none;
-    line-height: 80px;
+    line-height: 70px;
     padding: 0 16px;
 }
 
@@ -49,9 +51,12 @@ body {
     border-left: 2px solid #CBD6E2;
 }
 
+/* END LEFTCONTENT */
+/* START RIGHTCONTENT */
+
 .rightcontent {
     float: right;
-    line-height: 80px;
+    line-height: 70px;
 }
 
 .rightcontent i {
@@ -76,4 +81,72 @@ body {
     border: 1px solid white;
     border-radius: 5px;
     margin: 0 8px;
+}
+
+/* END RIGHTCONTENT */
+/* START SECOND SECTION */
+
+.secondcontainer {
+    width: 80%;
+    max-width: 1080px;
+    margin: 0 auto;
+    height: 70px;
+}
+
+#logo {
+    float: left;
+    line-height: 80px;
+}
+
+nav {
+    float: right;
+}
+
+nav a {
+    font-size: 14px;
+    font-weight: 600;
+    color: #33475B;
+    text-decoration: none;
+    line-height: 70px;
+    padding: 0 16px;
+}
+
+/* THIRD SECTION */
+
+.bg-blue {
+    background-color: #425B76;
+}
+
+.thirdsection {
+    width: 80%;
+    max-width: 1080px;
+    margin: 0 auto;
+    height: 90px;
+}
+
+#bold {
+    font-weight: bolder;
+}
+
+.thirdsection p {
+    font-size: 16px;
+    color: white;
+    padding: 26px 20px;
+}
+
+.left-learnmore {
+    width: 88%;
+}
+
+.right-learnmore {
+    width: 12%;
+}
+
+.whitebutton {
+    font-weight: 600;
+    color: #425B76;
+    background-color: white;
+    padding: 12px 24px;
+    border: 1px solid #425B76;
+    border-radius: 5px;
 }
