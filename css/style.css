@@ -9,7 +9,9 @@ body {
 }
 
 .container-fullwidth {
+    width: 100%;
     top: 0;
+    position: fixed;
 }
 
 .clearfix:after {
@@ -54,6 +56,7 @@ body {
 
 .rightcontent i {
     padding-right: 25px;
+    color: #0AA8C0;
 }
 
 #login-button {
