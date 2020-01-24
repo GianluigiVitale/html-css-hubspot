@@ -91,7 +91,7 @@ body {
     height: 70px;
 }
 
-#logo {
+#logo1 {
     float: left;
     line-height: 90px;
     height: 70px;
@@ -155,7 +155,7 @@ nav a {
 /* START FOURTHSECTION */
 
 .bg-pink {
-    background-color: #FFF2EE;
+    background-color: #FFF2EE;  /* REMEMBER TO ASK ABOUT BACKGROUND */
     background-image: url('https://www.hubspot.com/cdn2.hubspot.net/hubfs/53/assets/hubspot.com/home/2019/clouds-desktop.svg');
 }
 
@@ -199,4 +199,60 @@ nav a {
     color: #33475B;
     width: 245px;
     line-height: 17px;
+}
+
+/* END FOURTH SECTION */
+/* DIV IMMAGINE SFONDO VERDE */
+
+.bg-green {
+    background-color: #AFEBE4;
+}
+
+.immaginesfondo {
+    border-top: 3px solid #33475C;
+    border-bottom: 3px solid #33475C;
+    height: 80px;
+}
+
+/* END IMAGE */
+/* START FIFTH SECTION */
+
+.bg-gray {
+    background-color: #F5F8FA;
+}
+
+.fifthsection {
+    width: 80%;
+    max-width: 940px;
+    height: 1000px; /* HEIGHT DA RIMUOVERE */
+    margin: 0 auto;
+    text-align: center;
+}
+
+.firstpart {
+    position: relative;
+    padding-bottom: 50px;
+    width: 800px;
+    margin: 0 auto;
+}
+
+#logo2 {
+    padding-top: 100px;
+}
+
+#logo2 img {
+    width: 260px;
+}
+
+.textunder h2 {
+    color: #33475B;
+    margin-bottom: 20px;
+    font-size: 32px;
+}
+
+.textunder p {
+    color: #33475B;
+    font-size: 16px;
+    margin-top: 16px;
+    line-height: 27px;
 }
