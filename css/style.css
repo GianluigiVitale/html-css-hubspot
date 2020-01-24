@@ -71,7 +71,7 @@ body {
     border-radius: 5px;
 }
 
-.orangebutton {
+.rightcontent .orangebutton {
     font-size: 13px;
     background: #FF7A59;
     color: white;
@@ -150,4 +150,53 @@ nav a {
     padding: 12px 24px;
     border: 1px solid #425B76;
     border-radius: 5px;
+}
+
+/* START FOURTHSECTION */
+
+.bg-pink {
+    background-color: #FFF2EE;
+    background-image: url('https://www.hubspot.com/cdn2.hubspot.net/hubfs/53/assets/hubspot.com/home/2019/clouds-desktop.svg');
+}
+
+.fourthsection {
+    height: 600px;
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+.maincontent {
+    width: 42%;
+}
+
+.maincontent .orangebutton {
+    font-size: 16px;
+    background: #FF7A59;
+    color: white;
+    padding: 26px 48px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.maincontent h1 {
+    font-weight: 700;
+    color: #33475B;
+    padding: 100px 0 20px 0;
+    font-size: 55px;
+}
+
+.maincontent span {
+    display: block;
+    font-size: 16px;
+    color: #33475B;
+    margin: 16px 0;
+    line-height: 26px;
+}
+
+#fourthcontentunderbutton {
+    font-size: 12px;
+    margin: 24px 200px 24px 0px;
+    color: #33475B;
+    width: 245px;
+    line-height: 17px;
 }
