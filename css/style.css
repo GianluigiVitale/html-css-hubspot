@@ -226,10 +226,10 @@ nav a {
     max-width: 940px;
     height: 1000px; /* HEIGHT DA RIMUOVERE */
     margin: 0 auto;
-    text-align: center;
 }
 
 .firstpart {
+    text-align: center;
     position: relative;
     padding-bottom: 50px;
     width: 800px;
@@ -255,4 +255,83 @@ nav a {
     font-size: 16px;
     margin-top: 16px;
     line-height: 27px;
+}
+
+/* END FIRST PART */
+/* START SECOND PART */
+
+.secondpart {
+    background: white;
+    color: #33475B;
+    padding: 32px;
+    margin-bottom: 32px;
+    width: 960px;
+    height: 283px;
+}
+
+.leftsp {
+    float: left;
+    padding: 0 80px;
+}
+
+.leftsp img {
+    display: block;
+    width: 152px;
+    height: 150px;
+    padding-bottom: 20px;
+}
+
+.leftsp .orangebutton {
+    font-size: 14px;
+    background: #FF7A59;
+    color: white;
+    padding: 12px 24px;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-left: 8px;
+}
+
+.rightsp h4 {
+    font-size: 22px;
+    margin: 11px 0;
+}
+
+.rightsp p {
+    font-size: 13px;
+    margin: 14px 0;
+    line-height: 23px;
+}
+
+#middlep {
+    position: relative;
+    margin: 26px 0px 15px;
+    font-weight: bold;
+}
+
+p::after {
+    content: '';
+    position: absolute;
+    height: 5px;
+    margin-left: 10px;
+    border-bottom: 1px solid #e0e6ed;
+    top: 4px;
+    width: 50%;
+}
+
+li {
+    display: inline-block;
+    font-size: 13px;
+    margin: 0 20px 5px 0px;
+    font-weight: 500;
+}
+
+li:before {
+    content: '';
+    background: url('https://cdn2.hubspot.net/hubfs/53/assets/hubspot.com/partners/images/Orange_Checkmark.svg') no-repeat;
+    width: 18px;
+    height: 18px;
+    display: inline-block;
+    margin-bottom: -5px;
+    margin-right: 10px;
 }
