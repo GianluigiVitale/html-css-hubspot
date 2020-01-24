@@ -315,15 +315,17 @@ nav a {
     font-weight: bold;
 }
 
-p::after {
+/* p::after {
     content: '';
     position: absolute;
     height: 5px;
     margin-left: 10px;
     border-bottom: 1px solid #e0e6ed;
     top: 4px;
-    width: 50%;
-}
+    width: 33%;
+} */
+
+/* PROBLEMS WITH BAR */
 
 .secondpart li {
     display: inline-block;
@@ -393,4 +395,73 @@ li:before {
 
 .module .orangebutton {
     margin-left: 50px;
+}
+
+/* END FIFTH SECTION */
+/* START SIXTH SECTION */
+
+.bg-cyan {
+    background-color: #00AFB3;
+}
+
+.sixthsection {
+    width: 80%;
+    max-width: 1080px;
+    height: 850px;
+    margin: 0 auto;
+}
+
+.top6section {
+    margin: 0 auto;
+    text-align: center;
+    width: 750px;
+    color: white;
+}
+
+.top6section h2 {
+    padding-top: 120px;
+    font-size: 31px;
+}
+
+.top6section p {
+    margin: 16px 0px 0;
+    line-height: 27px;
+}
+
+.bigbox {
+    width: 1080px;
+    height: 368px;
+    padding-top: 50px;
+}
+
+.box {
+    float: left;
+    width: 270px;
+    height: 184px;
+    font-size: 16px;
+    color: white;
+    padding: 30px;
+    margin: 0 auto;
+}
+
+.logobox {
+    text-align: center;
+    margin: 0px 0px 15px;
+}
+
+.lowerinfobox {
+    text-align: center;
+}
+
+.lowerinfobox h2 {
+    font-size: 40px;
+    margin-bottom: 5px;
+}
+
+.btm {
+    border-top: 1px solid white;
+}
+
+.lft {
+    border-left: 1px solid white;
 }
