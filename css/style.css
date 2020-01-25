@@ -465,3 +465,106 @@ li:before {
 .lft {
     border-left: 1px solid white;
 }
+
+/* SEVENTH SECTION */
+
+.seventhsection {
+    max-width: 1200px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.topcontent7 {
+    padding-top: 100px;
+    margin: 0 auto;
+    width: 80%;
+}
+
+.left7 {
+    padding-top: 50px;
+    width: 250px;
+    color: #33475B;
+    float: left;
+}
+
+.left7 h2 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.left7 p {
+    font-size: 19px;
+    line-height: 33px;
+}
+
+.left7 span {
+    font-weight: bolder;
+}
+
+.right7 {
+    margin-top: 50px;
+    width: 600px;
+    height: 175px;
+    float: right;
+}
+
+.logowrapper {
+    width: 150px;
+    height: 87px;
+    padding: 20px;
+    float: left;
+}
+
+.logowrapper img {
+    width: 110px;
+}
+
+.moved1 {
+    padding-top: 28px;
+}
+
+.moved2 {
+    padding-top: 11px;
+}
+
+.moved3 {
+    padding-top: 24px;
+}
+
+.moved4 {
+    padding-top: 18px;
+}
+
+.bottomcontent7 {
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.lftbtmcontent {
+    float: left;
+    width: 486px;
+    color: #33475B;
+}
+
+.lftbtmcontent h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.lftbtmcontent p {
+    margin-top: 16px;
+    margin-bottom: 32px;
+    line-height: 27px;
+}
+
+.lftbtmcontent button {
+    padding: 26px 48px;
+    margin: 0;
+}
+
+.rgtbtmcontent img {
+    width: 350px;
+    float: right;
+}
