@@ -268,11 +268,11 @@ hr {
     padding-bottom: 50px;
 }
 
-#logo2 {
+.logo2 {
     padding-top: 100px;
 }
 
-#logo2 img {
+.logo2 img {
     width: 260px;
 }
 
@@ -417,7 +417,7 @@ hr {
     line-height: 23px;
 }
 
-#bordertop {
+.bordertop {
     text-align: center;
     font-weight: 600;
     padding: 26px 0px 0;
