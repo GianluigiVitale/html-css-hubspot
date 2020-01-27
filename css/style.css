@@ -381,6 +381,19 @@ hr {
     text-align: center;
 }
 
+.module,
+.secondpart {
+    box-shadow: 0 0 11px #eaf0f6;
+    transition: 0.3s;
+}
+
+.module:hover,
+.secondpart:hover {
+    box-shadow:0 10px 50px -5px rgba(51,71,91,0.12);
+    transform:scale(1.014);
+    transition: 0.4s ease-in-out;
+}
+
 .module img {
     margin: 0 auto;
     height: 150px;
@@ -687,4 +700,10 @@ hr {
     color: #CBD6E2;
     font-size: 12px;
     margin: 12px 0px;
+}
+
+.languages li:hover,
+.legalandprivacy li:hover {
+    color: cyan;
+    cursor: pointer;
 }
