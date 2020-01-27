@@ -375,20 +375,24 @@ hr {
 .module {
     float: left;
     width: 31%;
-    height: 613px;
     background-color: white;
     padding: 32px;
-    margin-bottom: 32px;
     margin-right: 32px;
+    text-align: center;
+}
+
+.module img {
+    margin: 0 auto;
+    height: 150px;
 }
 
 .module h4 {
     font-size: 22px;
     margin: 11px 0;
-    text-align: center;
 }
 
 .module p {
+    text-align: left;
     font-size: 14px;
     margin: 14px 0;
     line-height: 23px;
@@ -402,10 +406,6 @@ hr {
     border-top: 1px solid #E0E6ED;
 }
 
-.module img {
-    width: 233px;
-    height: 150px;
-}
 
 #modulefix {
     margin-right: 0;
@@ -417,10 +417,7 @@ hr {
     font-size: 13px;
     margin: 0px 20px 5px 0px;
     line-height: 20px;
-}
-
-.module .orangebutton {
-    margin-left: 50px;
+    text-align: left;
 }
 
 /* END FIFTH SECTION */
