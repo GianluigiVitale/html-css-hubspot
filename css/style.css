@@ -504,7 +504,7 @@ hr {
 
 .left7 {
     padding-top: 50px;
-    width: 250px;
+    width: 25%;
     color: #33475B;
     float: left;
 }
@@ -525,20 +525,18 @@ hr {
 
 .right7 {
     margin-top: 50px;
-    width: 600px;
-    height: 175px;
+    width: 63%;
     float: right;
 }
 
 .logowrapper {
-    width: 150px;
-    height: 87px;
+    width: 25%;
     padding: 20px;
     float: left;
 }
 
 .logowrapper img {
-    width: 110px;
+    width: 100%;
 }
 
 .moved1 {
@@ -566,7 +564,7 @@ hr {
 
 .lftbtmcontent {
     float: left;
-    width: 486px;
+    width: 45%;
     color: #33475B;
 }
 
@@ -587,7 +585,7 @@ hr {
 }
 
 .rgtbtmcontent img {
-    width: 350px;
+    width: 32%;
     float: right;
 }
 
@@ -598,6 +596,7 @@ hr {
 }
 
 .container {
+    width: 90%;
     max-width: 1080px;
     margin: 0 auto;
 }
