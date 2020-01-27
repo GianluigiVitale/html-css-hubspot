@@ -19,6 +19,7 @@ button:hover {
     right: 0;
     bottom: 0;
     left: 0;
+    z-index: 9999;
 }
 
 .clearfix:after {
@@ -32,7 +33,7 @@ button:hover {
     background-color: #F5F8FA;
 }
 
-/* START CONTAINER1080 */
+/* FIRSTSECTION */
 
 .container1080 {
     width: 80%;
@@ -61,9 +62,6 @@ button:hover {
 #border {
     border-left: 2px solid #CBD6E2;
 }
-
-/* END LEFTCONTENT */
-/* START RIGHTCONTENT */
 
 .rightcontent {
     float: right;
@@ -94,8 +92,7 @@ button:hover {
     margin: 0 8px;
 }
 
-/* END RIGHTCONTENT */
-/* START SECOND SECTION */
+/* SECOND SECTION */
 
 .secondcontainer {
     width: 80%;
@@ -173,7 +170,7 @@ nav a {
     border-radius: 5px;
 }
 
-/* START FOURTHSECTION */
+/* FOURTHSECTION */
 
 .bg-pink {
     background-image: url('../img/bg-case.png');
@@ -184,6 +181,7 @@ nav a {
 }
 
 .fourthsection {
+    width: 90%;
     height: 748px;
     max-width: 1080px;
     margin: 0 auto;
@@ -243,7 +241,7 @@ hr {
 }
 
 /* END IMAGE */
-/* START FIFTH SECTION */
+/* FIFTH SECTION */
 
 .bg-gray {
     background-color: #F5F8FA;
@@ -251,18 +249,18 @@ hr {
 
 .fifthsection {
     width: 80%;
-    max-width: 958px;
-    height: 1517px; /* HEIGHT DA RIMUOVERE */
+    max-width: 960px;
     margin: 0 auto;
     color: #33475B;
 }
 
 .firstpart {
+    width: 83%;
+    max-width: 800px;
+    margin: 0 auto;
     text-align: center;
     position: relative;
     padding-bottom: 50px;
-    width: 800px;
-    margin: 0 auto;
 }
 
 #logo2 {
@@ -290,12 +288,11 @@ hr {
 /* START SECOND PART */
 
 .secondpart {
+    width: 100%;
     background: white;
     color: #33475B;
     padding: 32px;
     margin-bottom: 32px;
-    width: 960px;
-    height: 283px;
 }
 
 .leftsp {
@@ -370,9 +367,14 @@ hr {
 
 /* START THIRD PART */
 
+.thirdpart {
+    width: 100%;
+    padding-bottom: 110px;
+}
+
 .module {
     float: left;
-    width: 298px;
+    width: 31%;
     height: 613px;
     background-color: white;
     padding: 32px;
@@ -422,7 +424,7 @@ hr {
 }
 
 /* END FIFTH SECTION */
-/* START SIXTH SECTION */
+/* SIXTH SECTION */
 
 .bg-cyan {
     background-color: #00AFB3;
